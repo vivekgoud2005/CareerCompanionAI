@@ -835,7 +835,7 @@ def demo_response(name, education="", strengths="", weak_areas="",
 import base64
 import streamlit.components.v1 as components
 
-with open("LOGO.JPEG", "rb") as f:
+with open("LOGO.jpeg", "rb") as f:
     logo = base64.b64encode(f.read()).decode()
 
 components.html(f"""
