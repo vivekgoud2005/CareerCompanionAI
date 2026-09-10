@@ -100,7 +100,7 @@ div.hero h1,
 div.hero h1 * {
     color: white !important;
     -webkit-text-fill-color: white !important;
-    font-size: 48px !important;
+    font-size: clamp(22px,8vw,48px) !important;
     font-weight: 850 !important;
     margin: 0 !important;
     letter-spacing: -1px;
@@ -110,7 +110,7 @@ div.hero p,
 div.hero p * {
     color: #eef2ff !important;
     -webkit-text-fill-color: #eef2ff !important;
-    font-size: 19px !important;
+    font-size: clamp(13px,4vw,19px) !important;
     margin-top: 12px !important;
 }
 @media (max-width: 480px) {
