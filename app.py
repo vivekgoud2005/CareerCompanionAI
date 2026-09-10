@@ -113,6 +113,23 @@ div.hero p * {
     font-size: 19px !important;
     margin-top: 12px !important;
 }
+@media (max-width: 480px) {
+    .hero {
+        padding: 30px 18px !important;
+    }
+
+    div.hero h1,
+    div.hero h1 * {
+        font-size: 26px !important;
+        line-height: 1.2 !important;
+        word-break: break-word;
+    }
+
+    div.hero p,
+    div.hero p * {
+        font-size: 15px !important;
+    }
+}
 
 
 /* =====================================================
